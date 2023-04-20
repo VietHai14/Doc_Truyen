@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="3dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+        <ImageView
+            android:id="@+id/imgAnhTruyen"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/aaa"/>
+        <TextView
+            android:id="@+id/TenChap"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#B7040404"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="Truyện tranh"
+            android:textSize="10dp"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/TenTruyen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="Tên truyện tranh"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+</LinearLayout>

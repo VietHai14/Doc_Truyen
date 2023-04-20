@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:gravity="center"
+       android:background="#363F44">
+
+       <EditText
+           android:background="@drawable/bg_edt"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_alignParentEnd="true"
+           android:layout_marginTop="5dp"
+           android:layout_marginBottom="5dp"
+           android:layout_marginLeft="70dp"
+           android:layout_marginRight="70dp"
+           android:hint="Nhập tên truyện"
+           android:gravity="center"
+           android:textColorHint="#BAB4B4"
+           android:textSize="20dp">
+       </EditText>
+   </RelativeLayout>
+    <GridView
+        android:id="@+id/gdvDSTruyen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3">
+
+    </GridView>
+
+</LinearLayout>
