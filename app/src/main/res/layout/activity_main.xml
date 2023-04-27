@@ -14,6 +14,7 @@
        android:background="#363F44">
 
        <EditText
+           android:id="@+id/edtTimKiem"
            android:background="@drawable/bg_edt"
            android:layout_width="match_parent"
            android:layout_height="match_parent"
@@ -25,7 +26,8 @@
            android:hint="Nhập tên truyện"
            android:gravity="center"
            android:textColorHint="#BAB4B4"
-           android:textSize="20dp">
+           android:textSize="20dp"
+           android:textColor="#BAB4B4">
        </EditText>
    </RelativeLayout>
     <GridView
